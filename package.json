@@ -1,0 +1,38 @@
+{
+  "name": "js-node-react-mongodb",
+  "version": "1.0.0",
+  "description": "First attempt a node, express, react and mongoldb stack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/believerjo/js-node-react-mongodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/believerjo/js-node-react-mongodb/issues"
+  },
+  "homepage": "https://github.com/believerjo/js-node-react-mongodb#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.2",
+    "eslint-plugin-react": "^7.7.0",
+    "nodemon": "^1.17.2",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}
