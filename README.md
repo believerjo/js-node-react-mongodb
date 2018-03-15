@@ -1,2 +1,2 @@
 # js-node-react-mongodb
-First attempt a node, express, react and mongoldb stack
+First attempt at node, express, react and mongo-db stack
